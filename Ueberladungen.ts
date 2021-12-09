@@ -4,7 +4,7 @@ function add (value1: any, value2: any){
     if(typof value1 === "string"){
         value1 = parseFloat(value1);
     }
-    
+    value2 = +value2;
     var result = value1 + value2;
     console.log(result);
     
